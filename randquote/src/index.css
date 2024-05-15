@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+:root{
+  --colorGen: red;
+}
+
+body{
+display: grid;
+justify-content: center;
+align-items: center;
+transition: 'background-color 0.7s';
+}
+
+.blockQuote{
+  max-width: 500px;
+  min-width: 500px;
+  display: grid;
+  height: max-content;
+  padding: 10px;
+  background-color: white;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 55%;
+}
+.quotees{
+display: flex;
+justify-content: space-between;
+}
+
+#icons{
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+  height: fit-content;
+}
+
+#new-quote{
+  border:none;
+  padding: 10px;
+  height: 50%;
+  font-size: medium;
+}
+#tweet-quote{
+  padding: 10px;
+  font-size: 20px;
+}
+#text{
+  font-size:30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#author{
+  text-transform: capitalize;
+  text-align: right;
+  padding: 10px;
+}
